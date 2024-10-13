@@ -1,0 +1,1 @@
+- Fixed Armor not animating with the player

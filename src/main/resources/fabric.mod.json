@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "weeping_angels",
+  "version": "${version}",
+
+  "name": "BTA: Weeping Angels",
+  "description": "Experience the thrill of regeneration with BTA: weeping_angels, a Minecraft mod that lets players defy mortality and unlock unparalleled survival capabilities, just like a Timelord.",
+  "authors": [
+    "Jeryn99"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/bta-weeping_angels",
+    "sources": "https://github.com/Jeryn99/bta-weeping_angels"
+  },
+
+  "icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"mc.jeryn.dev.angels.bta.WeepingAngels"
+    ],
+    "beforeGameStart": [
+			"mc.jeryn.dev.angels.bta.WeepingAngels"
+    ],
+    "afterGameStart": [
+			"mc.jeryn.dev.angels.bta.WeepingAngels"
+    ],
+    "recipesReady": [
+			"mc.jeryn.dev.angels.bta.WeepingAngels"
+    ]
+  },
+  "mixins": [
+    "weeping_angels.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.5"
+  }
+}
